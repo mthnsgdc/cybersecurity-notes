@@ -39,7 +39,7 @@ Bu sefer bize ssh server headerı sorulmuş.
 
 ![SSH header](fotolar/foto3.png)
 
-Fotoğrafın en sonunda SSH-2.0 iel başlayan satır bizim 5. sorumuzun cevabı olucak.
+Fotoğrafın en sonunda SSH-2.0 iLE başlayan satır bizim 5. sorumuzun cevabı olacak.
 
 
 
@@ -47,7 +47,7 @@ Altıncı sorunun cevabı ilk yaptığımız taramada mevcut. Cevabı ise vsftpd
 
 
 Geriye kalan son iki soruyu çözmemiz için hydranın belli başlı komutlarını bilmemiz lazım. İki adet isim sosyal mühendislik ile ele geçirildiği belirtilmiş. Bu isimleri hydra ile deneyerek ftp serverine brute force uygulayacağız.
-İlk isim için kullanacağım komut alttaki fotoğraftaki gibi olucak.
+İlk isim için kullanacağım komut alttaki fotoğraftaki gibi olacak.
 
 ![User1](fotolar/foto4.png)
 
@@ -77,4 +77,4 @@ Sonuncu soru bizden -sN taraması yapmamız için konulmuş. -sN taraması, Nmap
 ![-sN](fotolar/foto11.png)
 ![-sN2](fotolar/foto12.png)
 
-
+Bu şekilde bu CTF tamamlamış olduk.
