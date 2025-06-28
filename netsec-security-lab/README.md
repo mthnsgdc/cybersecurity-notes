@@ -59,22 +59,22 @@ Böylece quinn için de şifreyi bulmuş olduk. Şimdi ftp serverına bu bulduğ
 
 eddie hesabı için: 
 
-[FTP1](fotolar/foto6.png)
+![FTP1](fotolar/foto6.png)
 
 İstediğimiz flag burda çıkmadı. Diğer hesap ile deneyelim.
 
-[FTP2](fotolar/foto8.png)
+![FTP2](fotolar/foto8.png)
 
 Flagimizi bulduk. Şimdi flagimizi makinemize indirelim.
 
-[Flag](fotolar/foto9.png)
+![Flag](fotolar/foto9.png)
 
 Şimdi cat komutunu kullanarak flagimizi okuyalım.
 
-[CAT](fotolar/foto10.png)
+![CAT](fotolar/foto10.png)
 
 Sonuncu soru bizden -sN taraması yapmamız için konulmuş. -sN taraması, Nmap'in ping scan yöntemidir ve portlara TCP bayrağı olmayan boş paketler göndererek hedefin açık mı kapalı mı olduğunu anlamaya çalışır. 
-[-sN](fotolar/foto11.png)
-[-sN2](fotolar/foto12.png)
+![-sN](fotolar/foto11.png)
+![-sN2](fotolar/foto12.png)
 
 
