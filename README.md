@@ -1,6 +1,6 @@
-# 🧠 TryHackMe Notlarım
+# 🧠 Siber Güvenlik Notlarım
 
-Merhaba! Ben bu repoyu, TryHackMe platformundaki öğrenme sürecimi belgelemek ve tekrar göz atmak üzere oluşturuyorum. Konular ilerledikçe notlarımı güncelliyorum.
+Merhaba! Ben bu repoyu, TryHackMe ve Web Security Academy platformlarındaki öğrenme sürecimi belgelemek ve tekrar göz atmak üzere oluşturuyorum. Konular ilerledikçe notlarımı güncelliyorum.
 
 ## 📌 Neden Bu Repo?
 
