@@ -7,20 +7,20 @@ This walkthrough documents the steps I took to solve the RickBox CTF in a clear,
 ---
 
 ## 1. Target Overview
-- Target IP: `10.10.31.65` (example)
+- Target IP: `$IP` (example)
 - Open ports discovered: `22` (SSH), `80` (HTTP)
 
 ---
 
 ## 2. Enumeration
 1. **Checked robots.txt**
-   - Accessed `http://10.10.31.65/robots.txt` and found a random text: **`Wubbalubbadubdub`** — noted it.
+   - Accessed `http://$IP/robots.txt` and found a random text: **`Wubbalubbadubdub`** — noted it.
 2. **Username observed**
    - A username visible on the web page: **`R1ckRul3s`** — saved to notes.
 3. **Directory brute-force (gobuster)**
    - Command used as an example:
      ```bash
-     gobuster dir -u http://10.10.31.65:80 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,txt,html
+     gobuster dir -u http://$IP:80 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,txt,html
      ```
    - Result: `login.php` was discovered.
 
@@ -117,9 +117,5 @@ feat: add RickBox CTF walkthrough - initial report
 - found ingredients: Mr. Meeseek hair, 1 jerry tear, fleeb juice
 ```
 
----
 
-If you want, I can:
-- produce a ready-to-commit `README.md` file,
-- remove placeholder values and add a short `.gitignore`,
-- or expand any section with more commands and screenshots.
+
